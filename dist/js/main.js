@@ -1,10 +1,10 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/js/example.js":
-/*!***************************!*\
-  !*** ./src/js/example.js ***!
-  \***************************/
+/***/ "./src/js/clickable-div.js":
+/*!*********************************!*\
+  !*** ./src/js/clickable-div.js ***!
+  \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -13,8 +13,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
 
 jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
-
-  //script
+  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".clickable-div").click(function () {
+    window.location = jquery__WEBPACK_IMPORTED_MODULE_0___default()(this).find("a").attr("href");
+    return false;
+  });
 });
 
 /***/ }),
@@ -27,7 +29,7 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _example_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./example.js */ "./src/js/example.js");
+/* harmony import */ var _clickable_div__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./clickable-div */ "./src/js/clickable-div.js");
 
 
 /***/ }),

@@ -1,0 +1,16 @@
+body {
+    background-color: $defaultcolor;
+    header {
+        .heading-identity {
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+    .border-bottom {
+        border-color: rgba(168, 179, 207, 0.4) !important;
+    }
+}
+
+.clickable-div {
+    cursor: pointer;
+}

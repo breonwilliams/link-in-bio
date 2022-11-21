@@ -1,1 +1,1 @@
-import './example.js';
+import './clickable-div';
