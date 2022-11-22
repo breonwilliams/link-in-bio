@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
 .card-group {
-  gap: 54px;
+  gap: 30px;
 }
 .card-group .card.card-linkin {
   border: none;
@@ -41,7 +41,7 @@
   margin-left: 8px;
   vertical-align: inherit;
   font-family: "FontAwesome";
-  content: "\f105";
+  content: "\f178";
   line-height: 0;
 }
 .card-group .card.card-linkin.card-default:hover .card-title a, .card-group .card.card-linkin.card-default:hover .card-link, .card-group .card.card-linkin.card-default:focus-within .card-title a, .card-group .card.card-linkin.card-default:focus-within .card-link {
@@ -86,9 +86,26 @@ body {
 body header .heading-identity {
   font-size: 20px;
   font-weight: 700;
+  margin-bottom: 0;
 }
 body .border-bottom {
   border-color: rgba(168, 179, 207, 0.4) !important;
+}
+
+h2 {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+p {
+  color: #ffffff;
+}
+
+.container {
+  max-width: 960px;
 }
 
 .clickable-div {
